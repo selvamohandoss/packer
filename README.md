@@ -1,5 +1,44 @@
 # Packer
 
+#TEST CLA
+
+* Website: http://www.packer.io
+* IRC: `#packer-tool` on Freenode
+* Mailing list: [Google Groups](http://groups.google.com/group/packer-tool)
+
+Packer is a tool for building identical machine images for multiple platforms
+from a single source configuration.
+
+Packer is lightweight, runs on every major operating system, and is highly
+performant, creating machine images for multiple platforms in parallel.
+Packer comes out of the box with support for the following platforms:
+* Amazon EC2 (AMI). Both EBS-backed and instance-store AMIs
+* DigitalOcean
+* Docker
+* Google Compute Engine
+* OpenStack
+* Parallels
+* QEMU. Both KVM and Xen images.
+* VirtualBox
+* VMware
+
+Support for other platforms can be added via plugins.
+
+The images that Packer creates can easily be turned into
+[Vagrant](http://www.vagrantup.com) boxes.
+
+## Quick Start
+
+**Note:** There is a great
+[introduction and getting started guide](http://www.packer.io/intro)
+for those with a bit more patience. Otherwise, the quick start below
+will get you up and running quickly, at the sacrifice of not explaining some
+key points.
+
+First, [download a pre-built Packer binary](http://www.packer.io/downloads.html)
+for your operating system or [compile Packer yourself](#developing-packer).
+
+#TEST CLA
 * Website: http://www.packer.io
 * IRC: `#packer-tool` on Freenode
 * Mailing list: [Google Groups](http://groups.google.com/group/packer-tool)
